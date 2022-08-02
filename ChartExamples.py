@@ -10,7 +10,11 @@ def do_close():
 #Создание главного окна
 window = tk.Tk()
 window.geometry("450x450")
-window.title("Программа анализа .csv файлов")
+window.title("Программа построения графиков")
+
+#Добавлени метки заголовка
+lbTitle = tk.Label(text="Примеры построения графиков", font=('Helvetica', 16, 'bold'), fg='#0000cc')
+lbTitle.place(x=55, y=25)
 
 
 #Добавление кнопки закрытия программы
